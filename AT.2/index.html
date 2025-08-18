@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Menu Calculadora</title>
+</head>
+<body>
+  <h1>Menu da Calculadora</h1>
+  <p>Escolha uma operação e veja como usar via <b>query string</b> na URL:</p>
+
+  <ul>
+    <li>
+      <a href="/calculadora?operacao=soma&numUm=10&numDois=5">
+        Soma (10 + 5)
+      </a>
+    </li>
+    <li>
+      <a href="/calculadora?operacao=subtracao&numUm=10&numDois=5">
+        Subtração (10 - 5)
+      </a>
+    </li>
+    <li>
+      <a href="/calculadora?operacao=multiplicacao&numUm=10&numDois=5">
+        Multiplicação (10 * 5)
+      </a>
+    </li>
+    <li>
+      <a href="/calculadora?operacao=divisao&numUm=10&numDois=5">
+        Divisão (10 / 5)
+      </a>
+    </li>
+  </ul>
+
+  <p>
+    Você também pode alterar os números diretamente na URL para testar:<br>
+    <code>http://localhost:8081/calculadora?operacao=soma&numUm=7&numDois=3</code>
+  </p>
+</body>
+</html>
